@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form with Captcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Simple Form</h2>
+
+    <form>
+        <input type="text" placeholder="Enter First Value" required>
+        <input type="text" placeholder="Enter Second Value" required>
+
+        <!-- Hidden checkbox -->
+        <input type="checkbox" id="showCaptcha">
+
+        <!-- First Submit Button -->
+        <label for="showCaptcha" class="btn">Submit</label>
+
+        <div id="captchaSection">
+            <p>Captcha: 4829</p>
+            <input type="text" placeholder="Enter Captcha">
+            <input type="text" placeholder="Enter Third Value">
+            <button type="submit">Final Submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
